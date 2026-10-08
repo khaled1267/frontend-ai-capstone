@@ -29,3 +29,9 @@ This is a frontend AI engineering capstone project developed as part of the FlyR
 - Prefer simple, maintainable solutions.
 - Do not blindly accept AI-generated code.
 - Test important changes before committing them.
+
+## Git Workflow
+
+- Use Conventional Commits for all commit messages.
+- Keep commits focused on a single change.
+- Review changes before committing.
