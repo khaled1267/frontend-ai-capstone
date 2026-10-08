@@ -15,3 +15,7 @@ This project is being developed as part of the FlyRank Front-end AI Engineering 
 ## Development Approach
 
 This project will use AI-assisted development while maintaining clean, accessible, reusable, and maintainable code.
+
+## Current Status
+
+Repository setup is complete. The capstone development will begin in the upcoming assignments.
