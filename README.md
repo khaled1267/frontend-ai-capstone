@@ -19,3 +19,12 @@ This project will use AI-assisted development while maintaining clean, accessibl
 ## Current Status
 
 Repository setup is complete. The capstone development will begin in the upcoming assignments.
+
+## Project Goals
+
+The goals of this capstone project are to:
+
+- Build a modern frontend application using Next.js and TypeScript.
+- Create responsive and accessible user interfaces.
+- Follow clean, reusable, and maintainable coding practices.
+- Use AI tools responsibly to support development and problem-solving.
