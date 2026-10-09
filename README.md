@@ -20,6 +20,31 @@ This project will use AI-assisted development while maintaining clean, accessibl
 
 Repository setup is complete. The capstone development will begin in the upcoming assignments.
 
+## Getting Started
+
+The Next.js app has not been scaffolded yet, so there is nothing to install or run locally today. You can still clone the repo and follow along as assignments add the application.
+
+### Prerequisites
+
+- Git
+- Node.js 20 LTS or later (needed once the Next.js app is added)
+
+### Clone the repository
+
+```bash
+git clone https://github.com/khaled1267/frontend-ai-capstone.git
+cd frontend-ai-capstone
+```
+
+After the Next.js app is initialized, install dependencies and start the development server from the project root:
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ## Project Goals
 
 The goals of this capstone project are to:
