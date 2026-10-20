@@ -22,6 +22,12 @@ This is a frontend AI engineering capstone project developed as part of the FlyR
 - Avoid unnecessary dependencies.
 - Follow consistent naming conventions.
 
+## FE-03 Project-Specific Rules
+
+- Every form field must have an accessible label, and validation errors must be programmatically associated with the relevant input.
+- Form validation must prevent invalid submission; success messages must only appear after valid submission.
+- Demo-only forms must clearly state when changes are not persisted and must never claim database or server persistence unless implemented.
+
 ## AI-Assisted Development
 
 - Use AI tools to assist with development and problem solving.
