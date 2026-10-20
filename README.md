@@ -18,16 +18,16 @@ This project will use AI-assisted development while maintaining clean, accessibl
 
 ## Current Status
 
-Repository setup is complete. The capstone development will begin in the upcoming assignments.
+The minimal Next.js App Router baseline is set up with TypeScript, Tailwind CSS, and testing tools. The Settings Form has not been implemented yet.
 
 ## Getting Started
 
-The Next.js app has not been scaffolded yet, so there is nothing to install or run locally today. You can still clone the repo and follow along as assignments add the application.
+Install dependencies and start the Next.js development server from the project root.
 
 ### Prerequisites
 
 - Git
-- Node.js 20 LTS or later (needed once the Next.js app is added)
+- Node.js 20.9 or later
 
 ### Clone the repository
 
@@ -36,14 +36,21 @@ git clone https://github.com/khaled1267/frontend-ai-capstone.git
 cd frontend-ai-capstone
 ```
 
-After the Next.js app is initialized, install dependencies and start the development server from the project root:
-
 ```bash
 npm install
 npm run dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+Run the baseline checks with:
+
+```bash
+npm test
+npm run lint
+npm run typecheck
+npm run build
+```
 
 ## Project Goals
 
