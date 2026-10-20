@@ -3,16 +3,23 @@ import { describe, expect, it } from "vitest";
 import Home from "./page";
 
 describe("home page", () => {
-  it("renders the FE-03 baseline message", () => {
+  it("renders the Settings page and all form fields", () => {
     render(<Home />);
 
+    expect(screen.getByRole("heading", { name: "Settings" })).toBeInTheDocument();
+    expect(screen.getByLabelText("Display Name")).toBeInTheDocument();
+    expect(screen.getByLabelText("Email")).toBeInTheDocument();
+    expect(screen.getByLabelText("Time Zone")).toBeInTheDocument();
     expect(
-      screen.getByRole("heading", { name: "FE-03 baseline" }),
+      screen.getByRole("group", { name: "Product Update Preferences" }),
     ).toBeInTheDocument();
     expect(
-      screen.getByText(
-        "The application scaffold is ready for the Settings Form assignment.",
+      screen.getByLabelText(
+        "Send me occasional news about product improvements.",
       ),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Save changes" }),
     ).toBeInTheDocument();
   });
 });
